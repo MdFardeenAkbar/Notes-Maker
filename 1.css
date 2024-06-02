@@ -1,0 +1,84 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(168, 0, 255, 1) 0%, rgba(9, 9, 121, 1) 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icon {
+    display: flex;
+    margin: 75px 0px 0px 110px;
+}
+
+#noteimg {
+    width: 34px;
+}
+
+#notetxt {
+    font-size: 34px;
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.notesbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+    margin-left: 110px;
+    border-radius: 25px;
+    outline: 0;
+    border: none;
+    background: purple;
+    color: aliceblue;
+    width: 149px;
+    height: 55px;
+}
+
+#edit {
+    width: 30px;
+    height: 30px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    border-radius: 25px;
+    outline: 0;
+    border: none;
+    background: purple;
+    color: aliceblue;
+}
+
+.notes:hover {
+    cursor: pointer;
+}
+
+.input-box {
+    position: relative;
+    left: 115px;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.del {
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
